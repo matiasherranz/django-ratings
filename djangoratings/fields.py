@@ -152,7 +152,7 @@ class RatingManager(object):
 
         is_anonymous = (user is None or not user.is_authenticated())
         if is_anonymous and not self.field.allow_anonymous:
-            raise AuthRequired(_("user must be a user, not '%(anon_user)r'" % {'anon_user': user})
+            raise AuthRequired(_("user must be a user, not '%(anon_user)r'") % {'anon_user': user})
 
         if is_anonymous:
             user = None
