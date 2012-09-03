@@ -1,3 +1,7 @@
+Forked from ['dcramer django-ratings'](http://github.com/dcramer/django-ratings/ "").
+
+- Added i18n support
+
 ##############
 django-ratings
 ##############
